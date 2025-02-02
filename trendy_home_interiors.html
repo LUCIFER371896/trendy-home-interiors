@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendy Home Interiors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .portfolio img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .portfolio img:hover {
+            transform: scale(1.05);
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .service-box {
+            background: white;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .contact-form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Trendy Home Interiors
+</header>
+
+<div class="hero">
+    Transforming Your Home with Style & Elegance
+</div>
+
+<div class="container">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box">Modular Kitchens</div>
+        <div class="service-box">Living Room Designs</div>
+        <div class="service-box">Custom Furniture</div>
+    </div>
+
+    <h2>Our Portfolio</h2>
+    <div class="portfolio">
+        <img src="https://via.placeholder.com/300" alt="Interior 1">
+        <img src="https://via.placeholder.com/300" alt="Interior 2">
+        <img src="https://via.placeholder.com/300" alt="Interior 3">
+    </div>
+
+    <div class="contact-form">
+        <h3>Get a Free Consultation</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Requirements" rows="4" required></textarea>
+            <button type="submit">Request Consultation</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
